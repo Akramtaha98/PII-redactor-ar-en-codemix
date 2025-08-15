@@ -1,0 +1,12 @@
+model: xlm-roberta-base
+output_dir: outputs/ner_lora
+langs: [ar, en]
+epochs: 3
+batch_size: 16
+lr: 2e-5
+max_length: 256
+lora_r: 8
+lora_alpha: 16
+lora_dropout: 0.05
+resume_from: null
+codemix: null
